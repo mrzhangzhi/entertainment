@@ -1,0 +1,10 @@
+server:
+  #配置端口
+  port: 12345
+  #配置统一访问路径名
+  context-path: /ZZAWTT
+
+#自定义参数
+goUrl:
+  goBaiDu: 去百度
+  goGuGe: 去谷歌

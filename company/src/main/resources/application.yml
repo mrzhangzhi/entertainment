@@ -1,0 +1,16 @@
+#配置环境
+spring:
+  profiles:
+    active: dev
+  #数据库连接配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1.3306/mrzhang
+    username: mrzhang
+    password: 123456
+  #jpa
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
