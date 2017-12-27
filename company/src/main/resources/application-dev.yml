@@ -5,6 +5,6 @@ server:
   context-path: /ZZAWTT
 
 #自定义参数
-goUrl:
-  goBaiDu: 去百度
-  goGuGe: 去谷歌
+#goUrl:
+#  goBaiDu: 去百度
+#  goGuGe: 去谷歌

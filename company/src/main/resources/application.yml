@@ -5,12 +5,43 @@ spring:
   #数据库连接配置
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1.3306/mrzhang
-    username: mrzhang
+    url: jdbc:mysql://localhost:3306/entertainment
+    username: zhangzhi
     password: 123456
+    #druid数据池设置
+    type: com.alibaba.druid.pool.DruidDataSource
+    tomcat:
+      connection-properties: druid.stat.mergeSql=true
+  #模板引擎
+  freemarker:
+    #关闭缓存
+    cache: false
+    request-context-attribute: request
+    #模板加载位置
+    template-loader-path: classpath:/templates
+    #前缀
+    suffix: .htm
+    #后缀
+    prefix: /htm/
+
+#mybatis配置
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+  type-aliases-package: com.entertainment.company.domain
+
+#分页插件
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+
+
+#logging:
+#  level: debug
+#debug: false
   #jpa
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
 

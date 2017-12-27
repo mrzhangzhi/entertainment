@@ -2,9 +2,4 @@ server:
   #配置端口
   port: 54321
   #配置统一访问路径名
-  context-path: /WTTAZZ
-
-#自定义参数
-goUrl:
-  goBaiDu: 百度
-  goGuGe: 谷歌
+  context-path: /company
