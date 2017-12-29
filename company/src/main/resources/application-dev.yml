@@ -2,7 +2,7 @@ server:
   #配置端口
   port: 12345
   #配置统一访问路径名
-  context-path: /ZZAWTT
+  context-path: /dev
   error:
     whitelabel:
       enabled: true

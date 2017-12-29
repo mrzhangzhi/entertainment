@@ -13,7 +13,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class IndexController {
 
-    @GetMapping("/index")
+    @GetMapping(value = {"/index",""})
     public ModelAndView index(ModelAndView mv){
         mv.addObject("username","ABC");
         mv.setViewName("login");
