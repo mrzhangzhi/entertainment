@@ -43,7 +43,7 @@ spring:
     expose-session-attributes: false
     expose-spring-macro-helpers: true
     prefer-file-system-access: true
-    suffix: .ftl #前缀
+    suffix: .ftl #后缀
     template-loader-path: classpath:/templates/ #模板加载位置
 
   #配置资源位置
@@ -64,8 +64,8 @@ pagehelper:
   params: count=countSql
 
 #日志配置
-logging:
-  config: classpath:conf/log4j2.xml
+#logging:
+#  config: classpath:conf/log4j2.xml
 
 
 #logging:

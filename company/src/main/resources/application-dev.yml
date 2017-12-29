@@ -3,8 +3,6 @@ server:
   port: 12345
   #配置统一访问路径名
   context-path: /ZZAWTT
-  jsp-servlet:
-    class-name: freemarker.ext.servlet.FreemarkerServlet
   error:
     whitelabel:
       enabled: true
