@@ -25,7 +25,7 @@
                 </div>
             </div>
             <div style="margin-top: 5px">
-                <div class="icon-eye-close label-login">密码</div>
+                <div class="icon-eye-close label-login" style="cursor: auto">密码</div>
                 <div class="form-div-inline">
                     <input class="" type="password" name="password" value=""/>
                 </div>

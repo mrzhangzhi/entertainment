@@ -37,3 +37,6 @@ html,body {
 a{
     cursor: pointer;
 }
+div{
+    cursor: default;
+}
