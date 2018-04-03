@@ -13,8 +13,8 @@
 </head>
 <body style="background: url('${ctx!}/image/index.jpg') no-repeat 100%">
 <div class="body-div body-div-login">
-    <div class="icon-book icon-4x icon-my-top-8" style="margin-top: 50px;"></div>
-    <div class="div-title-font40">后台管理系统</div>
+    <div class="icon-group icon-4x icon-my-top-8" style="margin-top: 50px;"></div>
+    <div class="div-title-font40"><#--后台管理系统-->******</div>
     <div class="form-top-5">
         <form>
             <div>
