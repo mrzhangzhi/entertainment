@@ -5,10 +5,12 @@
     <title>后台管理系统</title>
     <link href="${ctx!}/bootstrap/css/bootstrap.css" rel="stylesheet"/>
     <link href="${ctx!}/bootstrap/css/font-awesome.min.css" rel="stylesheet" >
+    <link href="${ctx!}/bootstrap/css/formValidation.min.css" rel="stylesheet" >
     <link href="${ctx!}/css/common.css" rel="stylesheet"/>
     <link href="${ctx!}/css/login.css" rel="stylesheet"/>
     <script src="${ctx!}/js/jquery-2.1.1.js"></script>
     <script src="${ctx!}/bootstrap/js/bootstrap.js"></script>
+    <script src="${ctx!}/bootstrap/js/formValidation.min.js"></script>
     <script src="${ctx!}/js/login.js"></script>
     <script src="${ctx!}/js/jquery.validate.min.js"></script>
     <script src="${ctx!}/js/jquery.validate.extend.js"></script>
@@ -32,7 +34,7 @@
             </div>
             </div>
             <div style="margin-top: 15px;">
-                <button type="button" class="btn btn-info btn-sm" style="width: 300px" onclick="login()">登陆</button>
+                <input type="submit" class="btn btn-info btn-sm" style="width: 300px" value="登陆"/>
             </div>
 
         </form>
