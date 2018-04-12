@@ -49,8 +49,6 @@ public class LoginController extends BaseController {
     @RequestMapping(value = "login", method = RequestMethod.POST)
     @ResponseBody
     public JsonResult<Map<String,Object>> login(@RequestBody(required = false) UserInfo userInfo) {
-        ServletContext context = this.getRequest().getServletContext();
-        String ctx = (String) context.getAttribute("ctx");
         JsonResult<Map<String,Object>> result = new JsonResult<>();
         Map<String,Object> map = new HashMap<>();
         map.put("url","/toWelcome");

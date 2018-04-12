@@ -14,7 +14,8 @@ $.validator.setDefaults({
                                                success: function (data) {
                                                    debugger
                                                     if (data.code == 200){
-                                                        window.location.href = ${ctx!} + data.dataMap.url;
+                                                       var url = data.dataMap.url
+                                                        // window.location.href = ${ctx!} + data.dataMap.url;
                                                     }
                                                },
                                                error: function () {
