@@ -9,6 +9,7 @@
   <modules>
     <module>company</module>
     <module>utils</module>
+    <module>ssoApi</module>
   </modules>
   <name>entertainment</name>
   <url>http://maven.apache.org</url>
