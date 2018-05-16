@@ -9,7 +9,9 @@
   <modules>
     <module>company</module>
     <module>utils</module>
-    <module>ssoApi</module>
+    <module>sso</module>
+    <module>api</module>
+    <module>erp</module>
   </modules>
   <name>entertainment</name>
   <url>http://maven.apache.org</url>
