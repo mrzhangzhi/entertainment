@@ -25,11 +25,6 @@
 	</properties>
 
 	<dependencies>
-		<!-- web项目必须 -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
 
 		<!-- 数据库相关 -->
 		<dependency>
@@ -155,11 +150,6 @@
 
 	<build>
 		<plugins>
-			<!-- maven项目插件 -->
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
 			<!-- 单元测试 -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

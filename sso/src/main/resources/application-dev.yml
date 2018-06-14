@@ -5,10 +5,12 @@ mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.example.sso.domain
 spring:
-#  application:
-#    name: SSO
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/sso
     username: zhangzhi
     password: 123456
+
+
+
+
